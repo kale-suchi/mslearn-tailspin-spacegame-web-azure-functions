@@ -1,0 +1,11 @@
+trigger:
+- '*'
+variables:
+  buildConfiguration: 'Release'
+
+stages:
+- template: template-build-stages.yml
+- template: template-deploy-stages.yml
+
+
+
